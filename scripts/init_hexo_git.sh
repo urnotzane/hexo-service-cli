@@ -22,7 +22,7 @@ mkdir $blog_dir
 # git hook地址
 hooks_url="/home/$username/$default_blog_git/hooks"
 # 复制git hooks，生成一个git push hook
-cp ./gen_post_receive.sh $hooks_url/gen_post_receive.sh
+cp $(pwd)/scripts/gen_post_receive.sh $hooks_url/gen_post_receive.sh
 
 # 将网站目录所有权交给新创建的用户
 chown -R $username:$username -R $blog_dir
