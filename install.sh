@@ -11,7 +11,7 @@ export default_blog_git="blog.git"
 export blog_dir="/var/blog"
 # 网站文件地址
 export username=""
-# 网站文件地址
+# log前缀
 export log_prefix=$log_prefix
 
 echo -n "$log_prefix 请输入要创建的Linux用户名: "

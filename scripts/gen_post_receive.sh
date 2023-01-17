@@ -5,7 +5,7 @@
 cat > ~/$default_blog_git/hooks/post-receive <<EOF
 #!/bin/bash
 
-GIT_REPO=/home/git/$default_blog_git
+GIT_REPO=/home/$username/$default_blog_git
 PUBLIC_WWW=$blog_dir
 TMP_GIT_CLONE=/tmp/blog
 
