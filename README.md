@@ -24,7 +24,7 @@ cd hexo-service-cli
 sh +x ./install.sh
 ```
 根据脚本步骤进行配置，在ssh公钥步骤中输入前置工作生成的公钥内容：
-![hexo-service-cli.png](https://gallary.ithen.cn/images/2023/01/17/hexo-service-cli.png)
+![hexo-service-cli.png](./assets/hexo-service-cli.png)
 
 当输出`服务器端Hexo已配置完成！`时配置服务器成功。
 
