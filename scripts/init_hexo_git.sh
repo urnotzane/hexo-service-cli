@@ -1,7 +1,5 @@
 #!/bin/bash
 
-. $(pwd)/scripts/var.sh
-
 su $username <<EOF
 cd ~
 

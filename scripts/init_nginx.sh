@@ -1,7 +1,5 @@
 #!/bin/bash
 
-. $(pwd)/scripts/var.sh
-
 blog_domain=''
 
 # 安装Nginx

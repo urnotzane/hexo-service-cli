@@ -1,7 +1,5 @@
 #!/bin/bash
 
-. $(pwd)/scripts/var.sh
-
 # 生成post-receive hook
 
 cat > ~/$default_blog_git/hooks/post-receive <<EOF
