@@ -12,7 +12,7 @@ ssh-keygen -t rsa -C  'xxx@xxx.com'
 cat ~/.ssh/id_rsa.pub
 ```
 ### 服务器配置
-
+使用ssh登录服务器，然后执行以下命令：
 ```bash
 su
 git clone https://github.com/urnotzane/hexo-service-cli.git
