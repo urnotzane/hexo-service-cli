@@ -9,7 +9,7 @@ echo "$log_prefix 设置临时环境变量..."
 export default_blog_git="blog.git"
 # 网站文件地址
 export blog_dir="/var/blog"
-# 网站文件地址
+# 创建的git用户名
 export username=""
 # log前缀
 export log_prefix=$log_prefix
