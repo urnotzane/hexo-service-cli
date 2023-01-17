@@ -15,4 +15,4 @@ rm -rf \$PUBLIC_WWW/*
 cp -rf \$TMP_GIT_CLONE/* \$PUBLIC_WWW
 EOF
 
-echo "$log_prefix 已生成git hook：~/$default_blog_git/hooks/post-receive"
+echo "$log_prefix 已生成git hook：/home/$username/$default_blog_git/hooks/post-receive"

@@ -35,4 +35,4 @@ rm -rf $hooks_url/gen_post_receive.sh
 chmod +x $hooks_url/post-receive
 EOF
 
-echo "$log_prefix hexo在git仓库中的地址创建成功"
+echo "$log_prefix hexo在git仓库中的地址创建成功：/home/$username/$default_blog_git"
