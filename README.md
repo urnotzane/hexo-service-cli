@@ -1,5 +1,7 @@
-# hexo-service-cli
+# Hexo-service-cli
 自动部署hexo博客站点
+
+效果预览：[ithen.cn](https://ithen.cn)
 
 ## Hexo在私有服务器自动部署指南
 ### 前置工作
