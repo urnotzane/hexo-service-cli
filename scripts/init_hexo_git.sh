@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. $(pwd)/var.sh
+. $(pwd)/scripts/var.sh
 
 su $username <<EOF
 cd ~
