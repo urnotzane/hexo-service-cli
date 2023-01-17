@@ -22,7 +22,7 @@ export username=$username
 useradd $username -m -d /home/$username -s /bin/bash
 if [ $? -eq 0 ]
 then
-  echo "$log_prefix 已创建用户$username!"
+  echo "$log_prefix 已创建用户$username！"
 fi
 
 echo "$log_prefix 为用户$username设置密码"
@@ -38,3 +38,10 @@ sh +x ./scripts/set_authorized_key.sh
 sh +x ./scripts/ban_shell_login.sh
 
 # sh +x ./scripts/init_nginx.sh
+
+if [ $? -eq 0 ]
+then
+  echo "$log_prefix 服务器端Hexo已配置完成！"
+else
+  exit 1
+fi
