@@ -8,6 +8,8 @@ echo "$log_prefix 设置临时环境变量..."
 export default_blog_git="blog.git"
 # 网站文件地址
 export blog_dir="/var/blog"
+# 网站文件地址
+export username=""
 
 sh +x ./scripts/install_persional_git.sh
 
