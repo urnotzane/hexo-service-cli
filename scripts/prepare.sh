@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./var.sh
+. $(pwd)/var.sh
 
 echo "$log_prefix 设置临时环境变量..."
 

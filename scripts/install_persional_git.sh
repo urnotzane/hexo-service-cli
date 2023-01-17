@@ -2,7 +2,7 @@
 
 # 自动化搭建git仓库
 
-. ./var.sh
+. $(pwd)/var.sh
 
 sudo apt update -y
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./var.sh
+. $(pwd)/var.sh
 
 # 生成post-receive hook
 
