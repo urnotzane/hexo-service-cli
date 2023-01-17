@@ -33,4 +33,8 @@ sh +x ./scripts/install_persional_git.sh
 
 sh +x ./scripts/init_hexo_git.sh
 
+sh +x ./scripts/set_authorized_key.sh
+
+sh +x ./scripts/ban_shell_login.sh
+
 # sh +x ./scripts/init_nginx.sh
